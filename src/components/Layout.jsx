@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router";
-// NOTE: The nav below uses <Link to="…"> which triggers full page reloads.
+// NOTE: The nav below uses <a href="…"> which triggers full page reloads.
 // Lab 07 asks you to install react-router and replace these with <Link>.
 
 const Layout = () => {
@@ -21,7 +21,7 @@ const Layout = () => {
           <Link to="/bucket-list">
             <p className="text-[12px]">Bucket List</p>
           </Link>
-          <Link to="/Linkbout">
+          <Link to="/about">
             <p className="text-[12px]">About</p>
           </Link>
         </div>
